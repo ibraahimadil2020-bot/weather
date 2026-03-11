@@ -1,0 +1,275 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+}
+
+/* ===== Top Header ===== */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #e63946;
+}
+
+.main-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.main-nav a:hover {
+    color: #2b7cff;
+}
+
+.icons span {
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* ===== Category Menu ===== */
+.category-menu {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    padding: 12px 20px;
+    background: #fff;
+    border-top: 2px solid #2b7cff;
+    border-bottom: 2px solid #2b7cff;
+    font-size: 14px;
+}
+
+.category-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.category-menu a:hover {
+    color: #2b7cff;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    margin: 25px;
+    height: 330px;
+    border-radius: 20px;
+    background: url("YOUR-IMAGE-LINK-HERE.jpg") center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Dark Overlay */
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* Hero Text */
+.hero-content {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 16px;
+    opacity: 0.95;
+}
+
+.hero {
+    position: relative;
+    height: 340px;
+    width: 95%;
+    margin: 30px auto;
+    border-radius: 22px;
+    overflow: hidden;
+    background: url("./public/Rectangle\ 5\ \(4\).png") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dark overlay */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* Text upar lane ke liye */
+.hero-content {
+    position: relative;   /* VERY IMPORTANT */
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    opacity: 0.95;
+}
+
+.blog-section {
+    width: 95%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* Top Bar */
+.blog-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.filter {
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding: 8px 35px 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.search-box span {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+
+/* Grid Layout */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* Card Style */
+.blog-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.meta {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.blog-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.blog-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 18px;
+}
+
+/* Buttons */
+.red-btn {
+    background: #e63946;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.dark-btn {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.red-btn:hover { opacity: 0.9; }
+.dark-btn:hover { opacity: 0.85; }
+
+/* Responsive */
+@media (max-width: 992px) {
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+}

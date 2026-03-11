@@ -1,0 +1,601 @@
+* {
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(19, 18, 18);
+}
+
+
+.navbar {
+    width: 50%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #161616;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 29px;
+    font-weight: bold;
+    color: #d40000;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 27px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    color: #d40000;
+}
+
+.right-icons {
+    display: flex;
+    align-items: center left;
+    gap: 20px;
+}
+
+.banner {
+    width: 70%;
+    height: auto;
+    display: flex;
+
+    padding: 20px 0;
+    background: #fff;
+    margin-top: 60px;
+
+
+}
+
+.banner-img {
+    width: 400px;
+
+    height: auto;
+    border-radius: 20px;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+
+    background-image: url;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+
+    background-image: url('tumhari-image.jpg');
+
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+
+    background-size: cover;
+
+
+    background-attachment: fixed;
+
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color:#f2f2f2;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    padding: 20px(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.banner h1 {
+    font-size: 60px;
+}
+
+.banner p {
+    font-size: 22px;
+}
+
+.banner {
+    text-align: left;
+}
+
+
+
+.banner {
+    text-align: right;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* LEFT LOGO */
+.left-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand {
+    font-size: 22px;
+    font-weight: 600;
+    color: #111;
+}
+
+/* CENTER MENU */
+.center-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 16px;
+    color: #6b6969;
+}
+
+
+.right-icons {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    font-size: 20px;
+    color: #444;
+    cursor: pointer;
+}
+
+
+.category-bar {
+    background: #ffffff;
+    border-bottom: 3px solid red;
+}
+
+.category-bar ul {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+    padding: 12px 0;
+}
+
+.category-bar li {
+    font-size: 15px;
+    color: #444;
+    cursor: pointer;
+}
+
+.category-bar li:hover {
+    color: red;
+}
+
+
+.brands-section {
+    padding: 40px 60px;
+}
+
+.brands-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.brand-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+}
+
+
+.logo-box {
+    width: 150px;
+    height: 70px;
+    background: #ffffff;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow:
+        0px 0px 20px rgba(0, 0, 0, 0.05),
+        0px 0px 8px rgba(0, 0, 0, 0.03);
+}
+
+.logo-box img {
+    max-width: 75%;
+    height: auto;
+    opacity: 0.85;
+}
+
+.product-card {
+    width: 180px;
+    padding: 15px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.product-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.product-card .price {
+    font-weight: bold;
+    color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.tshirt-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tshirt {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.tshirt img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tshirt:hover {
+    transform: scale(1.05);
+}
+
+.tshirt p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image: url; 
+    background-size: cover;
+    background-position: center;
+    display: flex;* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;           
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;       
+  object-position: center;
+  display: block;
+}
+
+
+    
+}
+
+.banner h1 {
+    color: white;
+    font-size: 40px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f6f6f6;
+}
+
+/* APP BANNER */
+.app-banner{
+    width:90%;
+    margin:40px auto;
+    background:linear-gradient(to right,#b30000,#ff0000);
+    border-radius:12px;
+    padding:40px;
+    
+    
+    
+    color:#fff;
+}
+
+.banner-content h2{
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.banner-content p{
+    font-size:16px;
+    margin-bottom:20px;
+}
+
+.store-btns img{
+    width:140px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.banner-img img{
+    width:200px;
+    border-radius:12px;
+}
+
+/* CATEGORIES */
+.categories{
+    width:90%;
+    margin:60px auto;
+}
+
+.categories h2{
+    font-size:26px;
+    margin-bottom:25px;
+}
+
+.cat-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.cat-card{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+
+.cat-card img{
+    width: 70px;
+    height: 60px;
+    object-fit:cover;
+}
+
+.cat-card p{
+    padding:12px;
+    font-weight:bold;
+}
+.banner {
+  height: 400px;
+}
+.banner{
+  position: relative;  
+  background-image: url(./public/Rectangle\ 10\ \(3\).png);
+  background-size: cover;
+   background-position: center;
+   
+}
+
+.mobile-pic{
+  position: absolute;
+  top: -40px;      
+  
+  transform: translateX(-50%);
+  width: 200px;}
+
+
+
+
+.tshirt {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.tshirt img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tshirt:hover {
+    transform: scale(1.05);
+}
+
+.tshirt p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;} 
+
+
+
+.product-section {
+  margin-bottom: 40px;
+}
+
+.product-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-grid {
+border: border black solid;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  
+  padding-bottom: 10px;
+}
+
+.product-card {
+      grid-column: span 1 / span 1; 
+
+  
+  width: 100%; 
+  height: 253px; 
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+  position: relative;
+  padding: 5px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px; 
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.sold-out {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+.heart {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.product-name {
+  font-size: 14px;
+  margin: 5px 0 2px 0;
+}
+
+.product-price {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+
+.banner {
+    position: relative;
+}
+
+.banner-text-box {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    max-width: 500px;
+    color: white;
+}
+
+.banner-text-box h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.banner-text-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.banner-btn {
+    display: inline-block;
+    background-color: #ff2d2d;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.banner-btn:hover {
+    background-color: #e60000;
+}
